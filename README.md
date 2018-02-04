@@ -1,14 +1,14 @@
-#Projeto: plugin-deploy
+# Projeto: plugin-deploy
 Esse projeto foi criado com o intuito de demonstrar como pode ser feito o deploy automatizado com o plugin do tomcat.
     
     comando: mvn tomcat7:deploy
     
-##Configurações utilizadas
+## Configurações utilizadas
 
      1 - Tomcat7
      2 - Projeto maven
      
-###Passos
+### Passos
 
     1 - Configurar credenciais de deploy do Tomcat
     2 - Configurar credenciais tomcat no Maven
@@ -54,7 +54,7 @@ Navegar até pasta do projeto e executar o comando
 
     mvn tomcat7:deploy
     
-###Outros comandos disponíveis:
+### Outros comandos disponíveis:
     
     mvn tomcat7:undeploy // undeploya o projeto, ou seja, retira o projeto do servidor
     mvn tomcat7:redeploy // faz o redeploy do projeto
